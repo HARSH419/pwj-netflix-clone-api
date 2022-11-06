@@ -7,7 +7,7 @@ const { Schema } = mongoose; // Grab the schema object from mongoose
 var cors = require('cors');
 require('dotenv').config()
 
-mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.nonsu.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://sachin:URnb17mqFrVFqnT2@cluster0.fsuun.mongodb.net/netflix?retryWrites=true&w=majority`, {
   useCreateIndex: true,
   useUnifiedTopology: true,
   useNewUrlParser: true
